@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:ital,wght@0,400;1,700&family=Roboto+Slab:wght@400;500&display=swap');
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: black;
+    color: white;
+ display: flex;
+ justify-content: space-between;
+padding:0.7rem;
+align-items: center;
+position: sticky;
+top: 0;
+}
+ .navbar ul{
+     display: flex;
+     
+ }
+ .navbar ul li{
+     list-style: none;
+
+ }
+ .navbar ul li a{
+     color: white;
+     text-decoration: none;
+     padding: 1rem;
+     font-family: 'Roboto Slab', serif;
+ }
+
+ .navbar ul li a:hover{
+     background:#00a8ad;
+
+ }
+ .logo{
+    font-family: 'Lobster', cursive; 
+ }
+ .color-text{
+     color: #00a8ad;
+ }
+ .header{
+     background: url(5.jpg) center center;
+     height: 92.5vh;
+     background-position: center;
+     background-size: cover;
+ }
+ .header div{
+     color: #fff;
+     background: rgba(0,0,0,0.4);
+     height: 100%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: 'PT Sans', sans-serif;
+    }
+    .head-text1{
+font-size: 4rem;
+margin-bottom: 0.6rem;
+    }
+    .p-text1{
+font-size: 1.2rem;
+margin-bottom: 1rem;
+    }
+    .btn{
+        background-color: #4d58f8;
+        color: white;
+        padding: 0.7rem;
+        border: none;
+        border-radius: 5px;
+        width: 6.7rem;
+        cursor: pointer;
+    }
+
+    #services{
+        display: flex;
+        flex: 1;
+    }
+    .container{
+        margin: 10px auto;
+        width: 74rem;
+    }
+    .h3{
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        margin-top: 17px;
+    }
+    .cars-p{
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+    .cards{
+        text-align: center;
+        padding: 1.3rem;
+        font-family: 'Roboto Slab', serif;
+    }
+    .cards i{
+        background: #00a8ad;
+padding: 2rem;
+border-radius: 4.3rem;
+    }
+#About{
+    background: url(lamp.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#About div{
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+}
+.About-h1{
+    color: white;
+    text-align: right;
+    padding: 8rem 6rem 0 45rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.3rem;
+    
+}
+.About-p{
+    color: white;
+    text-align: right;
+    padding: 1rem 6rem 0 60rem;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+.About-btn{
+   
+    margin: 1rem 6rem 0 0;
+float: right;
+padding: 0.5rem;
+color: white;
+background-color: rgb(65, 61, 70);
+border-radius: 17px;
+cursor: pointer;
+}
+#img{
+    background: url('undraw_unlock_24mb.png');
+    height: 100vh;
+    background-size: cover;
+    height: 40rem;
+    width: 55rem;
+}
+.form{
+    text-align: right;
+    margin-left: 50rem;
+    margin-top: 9.5rem;
+}
+input{
+    height: 3.5rem;
+    width: 30rem;
+    border: 7px solid rgb(93, 203, 218);
+margin-left: 34px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.f-h1{
+    font-size: 3rem;
+    color: #00a8ad;
+    font-family: 'Roboto Slab', serif;
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.f-btn{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 15px;
+    margin-left: 34px;
+    padding: 5px;
+    width: 7rem;
+    background-color: rgb(168, 67, 226);
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.f-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.foot{
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+    background-color: black;
+}
